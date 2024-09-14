@@ -32,12 +32,9 @@ for group, condition in age_groups.items():
     visitors_in_group = visitor_df[condition] 
     print(f"Visitors in {group} age group:")
     print(visitors_in_group)
-
 ```
 ### Output:
-![Screenshot 2024-09-14 135935](https://github.com/user-attachments/assets/55b5bf89-1bfe-45b2-a9a6-a2a07d597132)
-
-
+![Screenshot 2024-09-14 141044](https://github.com/user-attachments/assets/4b21edbf-ce6b-422a-9a5a-a722826e53b6)
 
 ### Visualization:
 ```python
@@ -57,12 +54,9 @@ plt.xlabel('Age Groups')
 plt.ylabel('Number of Visitors')
 plt.title('Visitor Distribution Across Age Groups')
 plt.show()
-
-
 ```
 ### Output:
-![Screenshot 2024-09-14 140002](https://github.com/user-attachments/assets/e9fbe7f7-98d7-45d2-9493-791531776df8)
-
+![Screenshot 2024-09-14 141102](https://github.com/user-attachments/assets/d8855efb-a634-4645-bfe5-c807946c9250)
 
 ### Result:
 Thus the code was executed successfully.
